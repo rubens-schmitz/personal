@@ -46,16 +46,6 @@ export default function Content(): JSX.Element {
         .
       </li>
       <li>
-        <a href="https://rubens-schmitz.github.io/learn-russian/">
-          <span>Learn russian</span>
-          <FontAwesomeIcon
-            style={{ marginLeft: "4px" }}
-            icon={faExternalLinkAlt}
-          />
-        </a>{" "}
-        online.
-      </li>
-      <li>
         That{" "}
         <a href="https://rubens-schmitz.github.io/simon-game">
           <span>Simon game</span>
