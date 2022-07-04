@@ -15,7 +15,7 @@ export default function Content(): JSX.Element {
       zIndex: "3"
     }}>
       <li>
-        <a href="https://bitbucket.org/rubens-schmitz/nova-edutroniks">
+        <a href="https://gitlab.com/rubens-schmitz/nova-edutroniks">
           <span>Nova Edutroniks</span>
           <FontAwesomeIcon
             style={{ marginLeft: "4px" }}
