@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faBitbucket } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faGitlab } from "@fortawesome/free-brands-svg-icons";
 
 import Content from "./Content";
 import OrangeBall from "./OrangeBall";
@@ -66,6 +66,20 @@ function App() {
               justifyContent: "start",
             }}
           >
+            <FontAwesomeIcon icon={faPhone} />
+            <a href="tel:+3580417941605">
+              +358 041 794 1605
+            </a>
+          </div>
+
+          <div
+            style={{
+              display: "grid",
+              gridAutoFlow: "column",
+              gap: "8px",
+              justifyContent: "start",
+            }}
+          >
             <FontAwesomeIcon icon={faEnvelope} />
             <a href="mailto:rubens.schmitz@outlook.com">
               rubens.schmitz@outlook.com
@@ -92,9 +106,9 @@ function App() {
               justifyContent: "start",
             }}
           >
-            <FontAwesomeIcon icon={faBitbucket} />
-            <a href="https://bitbucket.org/rubens-schmitz/">
-              bitbucket.org/rubens-schmitz
+            <FontAwesomeIcon icon={faGitlab} />
+            <a href="https://gitlab.com/rubens-schmitz">
+              gitlab.com/rubens-schmitz
             </a>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+import { faGitlab, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Content(): JSX.Element {
   return (
@@ -15,29 +16,30 @@ export default function Content(): JSX.Element {
       zIndex: "3"
     }}>
       <li>
+        Qt/QML/Kirigami ●{" "}
         <a href="https://gitlab.com/rubens-schmitz/nova-edutroniks">
           <span>Nova Edutroniks</span>
           <FontAwesomeIcon
             style={{ marginLeft: "4px" }}
-            icon={faExternalLinkAlt}
+            icon={faGitlab}
           />
         </a>
       </li>
       <li>
-        Fullstack{" "}
+        Svelte, Go, SQL ●{" "}
         <a href="https://github.com/rubens-schmitz/shop">
-          <span>shop</span>
+          <span>Shop</span>
           <FontAwesomeIcon
             style={{ marginLeft: "4px" }}
-            icon={faExternalLinkAlt}
+            icon={faGithub}
           />
         </a>{" "}
         .
       </li>
       <li>
-        A{" "}
+        React ●{" "}
         <a href="https://rubens-schmitz.github.io/shop-frontend/">
-          <span>shop frontend</span>
+          <span>Shop frontend</span>
           <FontAwesomeIcon
             style={{ marginLeft: "4px" }}
             icon={faExternalLinkAlt}
@@ -46,7 +48,7 @@ export default function Content(): JSX.Element {
         .
       </li>
       <li>
-        That{" "}
+        React ●{" "}
         <a href="https://rubens-schmitz.github.io/simon-game">
           <span>Simon game</span>
           <FontAwesomeIcon
