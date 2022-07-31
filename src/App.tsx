@@ -34,7 +34,7 @@ function App() {
       <div style={{
         display: "flex",
         flexDirection: "column",
-        width: "360px"
+        width: "370px"
       }}>
         <div
           style={{
