@@ -16,16 +16,6 @@ export default function Content(): JSX.Element {
       zIndex: "3"
     }}>
       <li>
-        Flutter ●{" "}
-        <a href="https://github.com/rubens-schmitz/edutronics">
-          <span>Edutronics</span>
-          <FontAwesomeIcon
-            style={{ marginLeft: "4px" }}
-            icon={faGithub}
-          />
-        </a>
-      </li>
-      <li>
         Qt/QML/Kirigami ●{" "}
         <a href="https://gitlab.com/rubens-schmitz/nova-edutroniks">
           <span>Nova Edutroniks</span>
